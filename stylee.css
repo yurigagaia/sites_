@@ -1,3 +1,5 @@
+/* parte do header */
+
 header{
     height: 80px;
     display: flex;
@@ -14,13 +16,17 @@ header{
 
 .container{
     height: 100%;
-    width: 900px;
+    width: 1200px;
+
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo{
     width: 20%;
     height: 100%;
+
 }
 
 .menu{
@@ -32,15 +38,51 @@ header{
     height: 100%;
     background-color:blueviolet
 }
-.logos{
+.logos_whatsApp{
+    width: 5%;
+    height: 70%;
+    display: flex;
+    cursor: pointer;
+    border-radius: 25px;
+    justify-content: left;
+}
+
+.logo_instagram{
     width: 10%;
-    height: 100%;
-    background-color: aquamarine;
+    height: 70%;
+    display: flex;
+    cursor: pointer;
+    border-radius: 25px;
 }
 
 .logo img{
     width: 80px;
     
+}
+
+button:hover{
+    background-color: #fdb6c8;
+    color: steelblue;
+    transition: 350ms;
+}
+
+button{
+    background-color: #fdb6c8;
+    color: white;
+
+    border: none;
+
+    width: 150px;
+    height: 50px;
+
+    border-radius: 20px;
+
+    font-size: 20px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s;
 }
 
 .logo{
@@ -67,3 +109,13 @@ li{
 nav{
     height: 100%;
 }
+
+li:hover{
+    
+    background-color: #fdb6c8;
+    color: steelblue;
+    transition: 350ms;
+}
+
+/* parte da box */
+
