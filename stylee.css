@@ -135,8 +135,8 @@ li:hover{
     padding: 30px;
     background: linear-gradient(
     120deg,
-    #FDEEF5 50%,
-    #DAEEF7 50%
+    #f2c4da 50%,
+    #bce3f5 50%
 );
 }
 
@@ -157,7 +157,7 @@ li:hover{
 
 .base_menu{
     width: 100%;
-    height: 12vh;
+    height: 14vh;
     display: flex;
     margin-top: 15px;
     align-items: center;
@@ -171,35 +171,107 @@ li:hover{
     border-radius: 10px;
     align-items: center;
     justify-content: space-between;
-    background-color: cornflowerblue;
+    border: 20px;
+    border: 1px solid whitesmoke;
+    background-color: white;
 }
 
 .op1{
     width: 20%;
     height: 90%;
+    border-right-width: 3px;
+    border-right-style: solid;
+    border-right-color: rgb(205, 203, 203);
     border-radius: 10px;
-    background-color: crimson;
+    background-color: white;
 }
 .op2{
     width: 20%;
     height: 90%;
+    border-right-width: 3px;
+    border-right-style: solid;
+    border-right-color: rgb(205, 203, 203);
     border-radius: 10px;
-    background-color: crimson;
+    background-color: white;
 }
 .op3{
     width: 20%;
     height: 90%;
+    border-right-width: 3px;
+    border-right-style: solid;
+    border-right-color: rgb(205, 203, 203);
     border-radius: 10px;
-    background-color: crimson;
+    background-color: white;
 }
 .op4{
     width: 20%;
     height: 90%;
-    border-radius: 10px;
-    background-color: crimson;
+    background-color: white;
+}
+/* box media*/
+.container_media{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    align-content: center;
+    justify-content: center;
+    margin-top: 10px;
 }
 
+.box_media{
+    width: 40%;
+    height: 100%;
+    gap: 10px;
+    border-radius: 10px;
+    display: flex;
+    display: table-column;
+    background-color: #FDEEF5;
+}
 
+.media_opcoes_img{
+    width: 60%;
+    height: 100px;
+    display: flex;
+    gap: 10px;
+    background-color: aquamarine;
+}
+.media_op1{
+    width: 20%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: aqua;
 
+}
 
+.media_op2{
+    width: 20%;
+    height: 90%;
+    border-radius: 10px;
+    background-color: aqua;
+}
 
+.media_op3{
+    width: 20%;
+    height: 90%;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+.media_op4{
+    width: 20%;
+    height: 90%;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+.media_opcoes_img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #FDEEF5;
+}
