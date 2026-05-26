@@ -113,7 +113,7 @@ nav{
 li:hover{
     
     background-color: #fdb6c8;
-    color: steelblue;
+    color: white;
     transition: 350ms;
 }
 
@@ -121,7 +121,7 @@ li:hover{
 
 .container-{
     width: 100%;
-    height: 400px;
+    height: 500px;
     border-radius: 10px;
     justify-content: center;
     align-items: center;
@@ -130,12 +130,13 @@ li:hover{
 
 .box_grande{
     width: 90%;
-    height: 400px;
+    height: 500px;
     border-radius: 15px;
+    padding: 30px;
     background: linear-gradient(
     120deg,
-    #fdb6c8 50%,
-    lightblue 50%
+    #FDEEF5 50%,
+    #DAEEF7 50%
 );
 }
 
@@ -153,6 +154,51 @@ li:hover{
 .paragrafo{
     font-size: 50px
 }
+
+.base_menu{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+}
+
+.op1{
+    width: 20%;
+    height: 90%;
+    border-radius: 10px;
+    background-color: crimson;
+}
+.op2{
+    width: 20%;
+    height: 90%;
+    border-radius: 10px;
+    background-color: crimson;
+}
+.op3{
+    width: 20%;
+    height: 90%;
+    border-radius: 10px;
+    background-color: crimson;
+}
+.op4{
+    width: 20%;
+    height: 90%;
+    border-radius: 10px;
+    background-color: crimson;
+}
+
 
 
 
