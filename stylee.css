@@ -272,7 +272,7 @@ li:hover{
     border-radius: 10px;
     align-items: center;
     justify-content: center;
-    background-color: #bce3f5;
+    background-color: #fdb6c8;
 }
 
 .card_{
@@ -320,9 +320,90 @@ li:hover{
     margin-left: 5%;
     margin-right: 5%;
     border-radius: 10px;
-    background-color: #bce3f5;
+    background-color: #fdb6c8;
     display: flex;
 }
 
 
+/* parte promoção especial */
 
+.container_especial{
+    width: 100%;
+    height: 50vh;
+}
+
+.container_especial_sub{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #bce3f5;
+}
+
+.titulo_especial{
+    order: 2;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    border-radius: 25px;
+    background-color: #d1edfa;
+}
+
+.h1_especial{
+    order: 4;
+    width: 300x;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.montar_especial{
+    order: 1;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    font-size: 20px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.img_especial{
+    order: 5;
+    width: 230px;
+    height: 210px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 50%;
+    background-color: #f2c4da;
+}
+
+.img_sub{
+    order: ;
+    width: 500px;
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #dc4040;
+}
+
+.coluna_especial{
+    width: 400px;
+    height: 300px;
+    margin-left: 50px;
+    order: 1;
+    display: flex;
+    display: table-column;
+}
