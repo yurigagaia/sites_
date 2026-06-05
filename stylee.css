@@ -24,8 +24,8 @@ header{
 }
 
 .logo{
-    width: 20%;
-    height: 100%;
+    width: 20px;
+    height: 100px;
 
 }
 
@@ -145,105 +145,155 @@ li:hover{
     padding: 30px;
     background: linear-gradient(
     120deg,
-    #f2c4da 50%,
-    #bce3f5 50%
+    #FDEEF5 50%,
+    #DAEEF7 50%
 );
 }
 
 .titulo{
-    width: 50%;
-    height: 100px;
+    width: 300px;
+    height: 40px;
+    color: #5c86a1;
     align-items: center;
     justify-content: center;
     display: flex;
     border-radius: 20px;
     padding: 10px;
-    background-color: beige;
+    background-color: #dde0e5;
 }
 
 .paragrafo{
     font-size: 50px
 }
+/* parte do menu */
 
 .base_menu{
-    height: 14vh;
     display: flex;
-    margin-top: 15px;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.menu_{
+    width: 90%;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+
+    display: flex;
+    align-items: center;
+}
+
+.item{
+    width: 25%;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-radius: 10px;
+
+    border-right: 1px solid rgb(196, 196, 196);
+}
+
+.sem-borda{
+    border-right: none;
+}
+
+.icone{
+    width: 70px;
+    height: 70px;
+
+    border-radius: 50%;
+    background: #bce3f5;
+    flex-shrink: 0;
+}
+
+.texto h2{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.texto p{
+    font-size: 14px;
+    color: #524747;
+}
+
+.ver_valores{
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    color: white;
+    display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #fcb0be;
+    margin-right: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
-.menu-{
-    width: 90%;
-    height: 100%;
+.peça_da_box{
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
     display: flex;
-    border-radius: 10px;
+    border:rgb(196, 196, 196) solid 1px;
     align-items: center;
-    justify-content: space-between;
-    border: 20px;
-    border: 1px solid whitesmoke;
+    justify-content: center;
     background-color: white;
-    box-shadow: 5px 5px 10px rgba(126, 124, 124, 0.3);
-}
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
 
-.op1{
-    width: 20%;
-    height: 90%;
-    border-right-width: 3px;
-    border-right-style: solid;
-    border-right-color: rgb(205, 203, 203);
+}
+.sub_paragrafo{
+    font-size: 18px;
+    color: #524747;
+    margin-top: 10px;
+}
+.ver_va{
+    width: 400px;
+    height:100px;
+    margin-top: 10px;
+    color: rgb(29, 20, 20);
+    display: flex;
+    padding: 20px;
+    font-weight: bold;
     border-radius: 10px;
-    background-color: white;
+    cursor: pointer;
 }
-.op2{
-    width: 20%;
-    height: 90%;
-    border-right-width: 3px;
-    border-right-style: solid;
-    border-right-color: rgb(205, 203, 203);
-    border-radius: 10px;
-    background-color: white;
-}
-.op3{
-    width: 20%;
-    height: 90%;
-    border-right-width: 3px;
-    border-right-style: solid;
-    border-right-color: rgb(205, 203, 203);
-    border-radius: 10px;
-    background-color: white;
-}
-.op4{
-    width: 20%;
-    height: 90%;
-    background-color: white;
-}
-/* box media*/
-
+/* lado esquerdo */
 .container_media{
     width: 100%;
     height: 50vh;
     display: flex;
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 20px;
 }
-
-/* lado esquerdo */
-
 .box_media{
     width: 30%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    background-color: #FDEEF5;
     border-radius: 10px;
-    margin-left: 15px;
-    gap: 15px;
+    gap: 10px;
 }
 
 .media_titulo{
-    color: #ff6f91;
+    color: #fb91a9;
+    width: 150px;
+    height: 25px;
+    background-color: #feeaef;
     font-size: 14px;
     font-weight: bold;
+    margin-top: 70px;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 15px;
     text-transform: uppercase;
 }
 
@@ -251,17 +301,23 @@ li:hover{
     font-size: 42px;
     font-weight: bold;
     color: #333;
+    margin-left: 40px;
+
 }
 
 .media_subh1 p{
-    color: #e75353;
+    color: #7c1212;
     line-height: 22px;
+    margin-top: 20px;
+    margin-left: 40px;
 }
 
 .media_ver_sabores p{
-    color: #ff6f91;
+    color: #fb91a9;
     font-weight: bold;
     cursor: pointer;
+    margin-top: 40px;
+    margin-left: 40px;
 }
 
 /* lado direito */
@@ -273,12 +329,12 @@ li:hover{
     border-radius: 10px;
     align-items: center;
     justify-content: center;
-    background-color: #fdb6c8;
+    background-color: #FDEEF5;
 }
 
 .card_{
-    width: 200px;
-    height: 280px;
+    width: 320px;
+    height: 350px;
 
     padding: 15px;
 
@@ -300,14 +356,13 @@ li:hover{
 
 .img_sabor{
     width: 100%;
-    height: 140px;
+    height: 250px;
     border-radius: 5px;
-    background-color: #bce3f5;
 }
 
 .card_ h3{
     font-size: 18px;
-    color: #fdb6c8;
+    color: #f2c4da;
 }
 
 .card_ p{
@@ -316,12 +371,12 @@ li:hover{
 }
 
 .container_media_sub{
-    width: 100%;
+    width: 90%;
     height: 100%;
     margin-left: 5%;
     margin-right: 5%;
+    background-color: #FDEEF5;
     border-radius: 10px;
-    background-color: #fdb6c8;
     display: flex;
 }
 
@@ -344,7 +399,7 @@ li:hover{
     margin-left: 5%;
     margin-top: 20px;
     border-radius: 10px;
-    background-color: #bce3f5;
+    background-color: #DAEEF7;
 }
 
 .titulo_especial{
@@ -358,7 +413,7 @@ li:hover{
     margin-top: 20px;
     padding-left: 10px;
     border-radius: 25px;
-    background-color: #d1edfa;
+    background-color: #a3dffd;
 }
 
 .h1_especial{
@@ -384,40 +439,36 @@ li:hover{
 
 .img_especial{
     order: 5;
-    width: 230px;
-    height: 210px;
+    width: 350px;
+    height: 350px;
     margin-left: 20px;
     margin-top: 20px;
     border-radius: 50%;
-    background-color: #f2c4da;
+    background-color: white;
 }
 
 .img_sub{
-    width: 600px;
-    height: 200px;
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 700px;
+    height: 40%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .coluna_especial{
     width: 400px;
     height: 300px;
-    margin-left: 50px;
     order: 1;
     display: flex;
     display: table-column;
+    background-color: #DAEEF7;
 }
 
 .img_sub_sub{
-    width: 100px;
-    height: 100px;
-    margin-left: 20px;
-    margin-top: 40px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    background-color: white;
+    background-color: #ffffff;
 }
 
 .img_sub_sub:hover{
@@ -439,15 +490,16 @@ li:hover{
     height: 200px;
     display: flex;
     display: table-column;
+    margin: 40px;
 }
 
 /* box final*/
 
 .container_media_final{
     width: 100%;
-    height: 50vh;
+    height: 30vh;
     display: flex;
-    margin-top: 20px;
+    margin-top: 40px;
     border-radius: 20px;
 }
 
@@ -496,14 +548,12 @@ li:hover{
     border-radius: 10px;
     align-items: center;
     justify-content: center;
-    background-color: #fdb6c8;
+    background-color: white;
 }
 
 .card_final{
-    width: 200px;
-    height: 280px;
-
-    padding: 15px;
+    width: 320px;
+    height: 250px;
 
     border-radius: 15px;
 
@@ -511,6 +561,7 @@ li:hover{
     flex-direction: column;
 
     gap: 10px;
+    background-color: #ff99c2;
 
     transition: 0.3s;
 }
@@ -521,9 +572,9 @@ li:hover{
 
 .img_sabor_final{
     width: 100%;
-    height: 140px;
+    height: 100%px;
     border-radius: 5px;
-    background-color: #bce3f5;
+    background-color: #DAEEF7;
 }
 
 .container_media_sub_final{
@@ -532,6 +583,80 @@ li:hover{
     margin-left: 5%;
     margin-right: 5%;
     border-radius: 10px;
-    background-color: #fdb6c8;
+    background-color: white;
     display: flex;
+}
+
+/* flootter */
+
+.footer {
+    width: 100%;
+    background: #DAEEF7;
+    padding: 40px 100px 30px;
+    box-sizing: border-box;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.footer-brand {
+    width: 180px;
+}
+
+.footer-brand img {
+    width: 55px;
+    margin-bottom: 15px;
+}
+
+.footer-brand p {
+    font-size: 11px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.social {
+    margin-top: 15px;
+    display: flex;
+    gap: 12px;
+    font-size: 16px;
+    color: #555;
+    cursor: pointer;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.footer-column h4 {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #222;
+}
+
+.footer-column a,
+.footer-column span {
+    font-size: 11px;
+    color: #555;
+    text-decoration: none;
+}
+
+.footer-column a:hover {
+    color: #222;
+}
+
+.footer-copy {
+    margin-top: 25px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+
+    text-align: center;
+    font-size: 10px;
+    color: #666;
 }
